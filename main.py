@@ -39,6 +39,10 @@ def index():
 
     return {'message': 'This is the homepage of the API '}
 
+@app.get('/test')
+def test():
+    return {'message': 'This testApi '}
+
 @app.post('/prediction')
 
 def get_music_category(data: Music):

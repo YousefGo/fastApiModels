@@ -26,7 +26,7 @@ def index():
     return {'message': 'This is the homepage of the API '}
 
 @app.get('/test')
-def index():
+def test():
     return {'message': 'This testApi '}
 
 
